@@ -7,4 +7,3 @@ jobs:
     run-on: ubantu-latest
     steps:
       - run: echo "wellcome"
-  

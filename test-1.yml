@@ -1,0 +1,9 @@
+name: welcome msg
+
+on: [push]
+
+jobs:
+ job-1 msg display:
+  run on: ubantu-latest
+  steps:
+   - run: echo "wellcome to shark tank"
