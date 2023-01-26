@@ -3,7 +3,7 @@ name: welcome to hyd
 on: [push]
 
 jobs:
-  job1-message-display
+  job1-message-display:
     runs-on: ubuntu-latest
     steps:
       - run: echo "wellcome"
