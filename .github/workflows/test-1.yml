@@ -1,0 +1,10 @@
+name: welcome to hyd
+
+on: [push]
+
+jobs:
+  job1-message-display
+    run-on: ubantu-latest
+    steps:
+      - run: echo "wellcome"
+  
